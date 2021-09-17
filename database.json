@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "id":1,
+            "user": "fulano",
+            "status":true,
+            "price": "full",
+            "apiKey": "",
+            "apiSecret":"",
+            "clientConfig": [
+                {
+                    "name": "SMA1",
+                    "indicator": "SMA",
+                    "config": [20],
+                    "conditionBuy": [
+                        {
+                            "price": "up",
+                            "indicator": "SMA1"
+                        }
+                    ],
+                    "conditionSell": [
+                        {
+                            "price": "down",
+                            "indicator": "SMA1"
+                        }
+                    ]
+                }
+            ]
+            
+        },
+        {
+            "id":2,
+            "user": "sicrano",
+            "status": true,
+            "price": "full",
+            "apiKey": "",
+            "apiSecret":"",
+            "clientConfig": [
+                {
+                    "name": "SMA1",
+                    "indicator": "SMA",
+                    "config": [50],
+                    "conditionBuy": [
+                        {
+                            "price": "up",
+                            "indicator": "SMA1"
+                        }
+                    ],
+                    "conditionSell": [
+                        {
+                            "price": "down",
+                            "indicator": "SMA1"
+                        }
+                    ]
+                }, {
+                    "name": "EMA1",
+                    "indicator": "EMA",
+                    "config": [100],
+                    "conditionBuy": [
+                        {
+                            "price": "down",
+                            "indicator": "EMA1"
+                        }
+                    ],
+                    "conditionSell": [
+                        {
+                            "price": "up",
+                            "indicator": "EMA1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":3,
+            "user": "beltrano",
+            "status": false,
+            "price": "full",
+            "apiKey": "",
+            "apiSecret":"",
+            "clientConfig": {}
+        }
+    ]
+}
